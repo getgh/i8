@@ -75,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
       theme: _isDarkMode ? ThemeData.dark() : ThemeData.light(),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Fading Animation Demo'),
+          title: const Text('Fading Animation Demo - In class 8'),
           actions: [
             IconButton(
               icon: Icon(_isDarkMode ? Icons.wb_sunny : Icons.nightlight_round),
@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 const SizedBox(height: 20),
                 SwitchListTile(
-                  title: const Text('Show Frame'),
+                  title: const Text('Show Frame []'),
                   value: _showFrame,
                   onChanged: (bool value) {
                     setState(() {
